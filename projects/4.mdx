@@ -4,14 +4,50 @@ date: "2023-08-13"
 tags: ["tag1", "tag2"]
 ---
 
-Na Jasin입니다. 수정하면 바로 반영
+<Post>
+  <Post.H1 text="제목1">
+    <Post.H2 text="부제목1">
+      <Post.H3 text="부부제목1">
+        <Post.P
+          text="dasdadasdasdsadsadadadasdasdasdasdasdasdasdadadsadsadsadsadasdasdasdasdasdasdsadasdadasdadadasdasdasdadasdadasdasdsadsadadadasdasdasdasdasdasdasdadadsadsadsadsadasdasdasdasdasdasdsadasdadasdadadasdasdasdadasdadasdasdsadsadadadasdasdasdasdasdasdasdadadsadsadsadsadasdasdasdasdasdasdsadasdadasdadadasdasdasda"
+          color="red"
+        />
+      </Post.H3>
+    </Post.H2>
+  </Post.H1>
+  <Post.H1 text="제목2">
+    <Post.H2 text="부제목2">
+      <Post.P
+        text="dasdadasdasdsadsadadadasdasdasdasdasdasdasdadadsadsadsadsadasdasdasdasdasdasdsadasdadasdadadasdasdasdadasdadasdasdsadsadadadasdasdasdasdasdasdasdadadsadsadsadsadasdasdasdasdasdasdsadasdadasdadadasdasdasdadasdadasdasdsadsadadadasdasdasdasdasdasdasdadadsadsadsadsadasdasdasdasdasdasdsadasdadasdadadasdasdasda"
+        color="blue"
+      />
+    </Post.H2>
+  </Post.H1>
+  <Post.H1 text="제목3">
+    <Post.H2 text="부제목2">
+      <Post.P text="dasdadasdasdsadsadadadasdasdasdasdasdasdasdadadsadsadsadsadasdasdasdasdasdasdsadasdadasdadadasdasdasdadasdadasdasdsadsadadadasdasdasdasdasdasdasdadadsadsadsadsadasdasdasdasdasdasdsadasdadasdadadasdasdasdadasdadasdasdsadsadadadasdasdasdasdasdasdasdadadsadsadsadsadasdasdasdasdasdasdsadasdadasdadadasdasdasda" />
+      <Post.Y yId="4Dwit6McvY4" />
+      <Post.I
+        imgSrc="/images/na-jasin.png"
+        imgDesc="나 자신 서비스입니다.나 자신 서비스입니다.나 자신 서비스입니다.나 자신 서비스입니다.나 자신 서비스입니다.나 자신 서비스입니다.나 자신 서비스입니다.나 자신 서비스입니다."
+      />
+    </Post.H2>
+  </Post.H1>
 
-이제는 수정해도 반영되지 않는다. (revalidate 적용 가능)
-(한번 더 revalidate 테스트)
-테스트테스트테스트
-텍스트입니다. 텍스트입니다.
+  <Post.C>
 
-코드 블럭
+```tsx
+export default Component (){
+  const [data, setData] = useState(false)
+
+  return (
+      <div>안녕하세요</div>
+  )
+}
+```
+
+  </Post.C>
+</Post>
 
 # 제목1
 
